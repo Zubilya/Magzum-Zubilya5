@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>4 task</title>
+</head>
+<body>
+     <p id="1"></p>
+     <p id="2"></p>
+     <p id="3"></p>
+     <p id="4"></p>
+     <p id="5"></p>
+<script>
+  function fun()
+  {
+    var num1=document.getElementById('number').value;
+    var num2=document.getElementById('numbers').value;
+    document.getElementById('result').innerHTML=(a*b)
+  }
+  function fun2()
+  {
+    var num1=document.getElementById('number').value;
+    var num2=document.getElementById('numbers').value;
+    document.getElementById('result').innerHTML=(a/b)
+  }
+</script>
+  1st number:
+  <input type="number" value="" id="number"><br><br>
+  2nd number:
+  <input type="number" value="" id="numbers"><br><br>
+  <input type="submit" value="Multiply" onclick="return fun()">
+  <input type="submit" value="Divide" onclick="return fun2()"><br><br>
+  <b>The result is: </b><br><br>
+  <span id="result"></span>
+</body>
+</html>
